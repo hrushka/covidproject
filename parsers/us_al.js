@@ -1,7 +1,7 @@
 const request = require('axios');
 const cheerio = require('cheerio');
 const moment = require('moment');
-const utils = require('./utils')
+const utils = require('../utils')
 
 let general = {
     state: "Alabama",

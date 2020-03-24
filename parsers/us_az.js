@@ -1,7 +1,7 @@
 const rp = require('request-promise')
 const moment = require('moment');
 const parse = require('csv-parse/lib/sync')
-const utils = require('./utils')
+const utils = require('../utils')
 
 let general = {
     state: "Arizona",

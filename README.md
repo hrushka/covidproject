@@ -43,9 +43,8 @@ functions:
     handler: us_il.parse
 ```
 
-Then you can execute any parser locally by calling the following command. Below is an example of Alaska.
+Then you can execute any parser locally by calling the following command. Below is an example of Arizona.
 
 ```bash
 serverless invoke local --function update_us_az
 ```
-

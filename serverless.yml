@@ -59,13 +59,15 @@ provider:
 
 functions:
   update_us_ak:
-    handler: us_ak.parse
+    handler: parsers/us_ak.parse
   update_us_al:
-    handler: us_al.parse
+    handler: parsers/us_al.parse
   update_us_az:
-    handler: us_az.parse
+    handler: parsers/us_az.parse
   update_us_il:
-    handler: us_il.parse
+    handler: parsers/us_il.parse
+  update_us_ny:
+    handler: parsers/us_ny.parse
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
 #    Check the event documentation for details
